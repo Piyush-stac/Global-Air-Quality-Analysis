@@ -112,7 +112,7 @@ plt.show()
 group=data.groupby('City')['Wind Speed (m/s)'].mean()
 x=list(group.index)
 y=group.values
-plt.scatter(x,y,marker='o',linestyle='--',label='Wind Speed (m/s)'),
+plt.scatter(x,y,marker='o',linestyle='--',label='Wind Speed (m/s)')
 plt.xlabel('Cities')
 plt.title("Monthly trend of AQI in top Polluted City(Delhi)")
 plt.legend()
@@ -120,7 +120,7 @@ plt.legend()
 group=data.groupby('City')['PM2.5'].mean()
 x=list(group.index)
 y=group.values
-plt.scatter(x,y,marker='o',linestyle='--',label='PM2.5'),
+plt.scatter(x,y,marker='o',linestyle='--',label='PM2.5')
 plt.xlabel('Cities')
 plt.legend()
 
@@ -128,4 +128,3 @@ plt.ylabel('PM2.5 and Wind Speed (m/s)')
 plt.title("Wind Speed vs PM2.5")
 plt.grid()
 plt.show()
-
