@@ -42,6 +42,11 @@ This project investigates global air pollution trends using a dataset that inclu
 2. Seasonal and meteorological factors influence pollution levels.
 3. Data-driven policies can be guided using this analysis.
 
+🔮 Future Work
+1. Build machine learning models to predict AQI or pollutants.
+2. Add time-series forecasting for future air quality trends.
+3. Use interactive maps for geo-visualization of AQI.
+
 🧑‍💻 Author
 Piyush Parwani
 GitHub : https://github.com/Piyush-stac
